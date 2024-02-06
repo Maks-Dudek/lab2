@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+#formcontainer{
+  border: .2em solid black;	
+}
+
 h1 {
   margin-top: 1%;
   font-weight: bold;
@@ -14,23 +18,34 @@ label {
   display: block;
   text-align: center;
   width: 97%;
-  margin: 0 1.5%;
+  margin: 1% 1.5%;
 }
 
 input {
   box-sizing: border-box;
   width: 97%;
-  padding: 12px 20px;
-  margin: 8px 1.5%;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  padding: 1% 1%;
+  margin: 1% 1.5%;
+  border: .1em solid black;
+  border-radius: 1%;
   background-color: #B2A3B5;
   
 }
 
-input a:hover {
-   background-color: #EBDCCB;
-   cursor: pointer;
+button{
+  display: block;
+  box-sizing: border-box;
+  width: 97%;
+  padding: 1% 1%;
+  margin: 1% 1.5%;
+  border: .1em solid black;
+  border-radius: 1%;
+  background-color: #B2A3B5;
+}
+
+button:hover {
+ cursor: pointer;
+ background-color: white;
 }
 
 legend { 
@@ -54,15 +69,15 @@ fieldset {
 @media screen and (min-width: 768px) {
   #formcontainer {
     text-align: center;
-	margin: 3% auto 0 auto;
+	margin: 5% auto 0 auto;
 	width: 75%;
   }
   
   input {
-    width: 65%
+    width: 70%
   }
   
-  #button {
+  button {
     max-width: 30%;
 	display: block;
 	margin: 0 auto;
@@ -74,19 +89,18 @@ fieldset {
 @media screen and (min-width: 1280px) {
   #formcontainer {
     text-align: center;
-	margin: 3% auto 0 auto;
+	margin: 5% auto 0 auto;
 	width: 50%;
   }
   
   input {
-    width: 50%
+    width: 60%
   }
   
-  #button {
+  button {
     width: 30%;
-	display: block;
+    display: block;
 	margin: 0 auto;
 	font-size: 90%;
-	
   }
 }
