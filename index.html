@@ -10,18 +10,18 @@
   <h1>Lab 2 Form</h1>
   <form method ="POST" autocomplete="on" action="#null" autocomplete="on">
     <fieldset>
-      <legend>User Information</legend>
+    <legend>User Information</legend>
       <div>
-	    <label>Email Address: <input size="50" type="text" placeholder="jsmith@gmail.com"></label>
+	    <label>Email Address: <input size="50" name="email" type="email" placeholder="jsmith@gmail.com"></label>
       </div>
       <div>
-	    <label>Phone Number: <input size="50" type="text" placeholder="123-456-7890"></label>
+	    <label>Phone Number: <input size="50" name ="phone" type="text" placeholder="123-456-7890"></label>
       </div>
       <div>
-	    <label>Date of Birth: <input size="50" type="text" placeholder="01/01/1999"></label>
+	    <label>Date of Birth: <input size="50" name="DOB" type="text" placeholder="01/01/1999"></label>
       </div>
+	  <input type="submit" value="Submit Form">
     </fieldset>
   </form>
-  <input type="submit">
 </body>
 </html>
