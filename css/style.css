@@ -1,11 +1,45 @@
 body {
-  background-color: #A491D3;
+  background-color: #91818A;
   text-align: center;
 }
 
 h1 {
   margin-top: 1%;
   font-weight: bold;
+  font-size: 2em;
+  font-family: "Monaco", monospace;
+}
+
+label { 
+  display: block;
+  text-align: center;
+  width: 97%;
+  margin: 0 1.5%;
+}
+
+input {
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #B2A3B5;
+  
+}
+
+input a:hover {
+   background-color: #EBDCCB;
+   cursor: pointer;
+}
+
+legend { 
+  margin-top: 1%;
+}
+
+fieldset {
+  border: .2em solid black;
+  margin: 1%;
 }
 
 .formfont {
@@ -17,3 +51,42 @@ h1 {
   padding: 1%;
 }
 
+@media screen and (min-width: 768px) {
+  #formcontainer {
+    text-align: center;
+	margin: 3% auto 0 auto;
+	width: 75%;
+  }
+  
+  input {
+    width: 65%
+  }
+  
+  #button {
+    max-width: 30%;
+	display: block;
+	margin: 0 auto;
+	font-size: 90%;
+	
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #formcontainer {
+    text-align: center;
+	margin: 3% auto 0 auto;
+	width: 50%;
+  }
+  
+  input {
+    width: 50%
+  }
+  
+  #button {
+    width: 30%;
+	display: block;
+	margin: 0 auto;
+	font-size: 90%;
+	
+  }
+}
