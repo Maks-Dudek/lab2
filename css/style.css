@@ -28,8 +28,7 @@ input {
   margin: 1% 1.5%;
   border: .1em solid black;
   border-radius: 1%;
-  background-color: #B2A3B5;
-  
+  background-color: #B2A3B5; 
 }
 
 button{
@@ -44,8 +43,8 @@ button{
 }
 
 button:hover {
- cursor: pointer;
- background-color: white;
+  cursor: pointer;
+  background-color: white;
 }
 
 legend { 
@@ -71,7 +70,7 @@ fieldset {
     text-align: center;
 	margin: 5% auto 0 auto;
 	width: 75%;
-  }
+}
   
   input {
     width: 70%
@@ -81,8 +80,7 @@ fieldset {
     max-width: 30%;
 	display: block;
 	margin: 0 auto;
-	font-size: 90%;
-	
+	font-size: 90%;	
   }
 }
 
