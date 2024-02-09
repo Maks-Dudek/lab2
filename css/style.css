@@ -1,10 +1,11 @@
 body {
-  background-color: #91818A;
+  background-color: #E9F1F7;
   text-align: center;
 }
 
 #formcontainer{
-  border: .2em solid black;	
+  border: .2em solid #2274A5;	
+  border-radius: 30px;
 }
 
 h1 {
@@ -26,20 +27,20 @@ input {
   width: 97%;
   padding: 1% 1%;
   margin: 1% 1.5%;
-  border: .1em solid black;
+  border: .2em solid #2274A5;
   border-radius: 1%;
-  background-color: #B2A3B5; 
+  background-color: #E7DFC6; 
 }
 
 button{
   display: block;
   box-sizing: border-box;
-  width: 97%;
+  width: 90%;
   padding: 1% 1%;
-  margin: 1% 1.5%;
-  border: .1em solid black;
+  margin: 1% 5% 5% auto;
+  border: .2em solid #2274A5;
   border-radius: 1%;
-  background-color: #B2A3B5;
+  background-color: #E7DFC6;
 }
 
 button:hover {
@@ -49,6 +50,8 @@ button:hover {
 
 legend { 
   margin-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 fieldset {
@@ -79,12 +82,12 @@ fieldset {
   button {
     max-width: 30%;
 	display: block;
-	margin: 0 auto;
+	margin: 0 26% 3% auto;
 	font-size: 90%;	
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   #formcontainer {
     text-align: center;
 	margin: 5% auto 0 auto;
@@ -98,7 +101,7 @@ fieldset {
   button {
     width: 30%;
     display: block;
-	margin: 0 auto;
+	margin: 2% 28% 2% auto;
 	font-size: 90%;
   }
 }
